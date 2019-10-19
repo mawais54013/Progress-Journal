@@ -26,7 +26,11 @@ class CreateProgressUpdateViewController: UIViewController, UIImagePickerControl
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        <#code#>
+        if let selectedImage = info[.originalImage] as? UIImage {
+            photoImageView.image = selectedImage
+        }
+        
+        picker.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func existingPhotoTapped(_ sender: Any) {
