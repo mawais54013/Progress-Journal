@@ -15,6 +15,7 @@
 		B500FD222353F87500AB8861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B500FD202353F87500AB8861 /* LaunchScreen.storyboard */; };
 		B500FD2A23541BCA00AB8861 /* ProgressUpdateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500FD2923541BCA00AB8861 /* ProgressUpdateTableViewController.swift */; };
 		B500FD2C23541BE400AB8861 /* CreateProgressUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500FD2B23541BE400AB8861 /* CreateProgressUpdateViewController.swift */; };
+		B577F439235BD19D00B23CD2 /* ViewProgressUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F438235BD19D00B23CD2 /* ViewProgressUpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B500FD232353F87500AB8861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B500FD2923541BCA00AB8861 /* ProgressUpdateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressUpdateTableViewController.swift; sourceTree = "<group>"; };
 		B500FD2B23541BE400AB8861 /* CreateProgressUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProgressUpdateViewController.swift; sourceTree = "<group>"; };
+		B577F438235BD19D00B23CD2 /* ViewProgressUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProgressUpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B500FD122353F87200AB8861 /* AppDelegate.swift */,
 				B500FD142353F87200AB8861 /* SceneDelegate.swift */,
 				B500FD2923541BCA00AB8861 /* ProgressUpdateTableViewController.swift */,
+				B577F438235BD19D00B23CD2 /* ViewProgressUpdateViewController.swift */,
 				B500FD2B23541BE400AB8861 /* CreateProgressUpdateViewController.swift */,
 				B500FD182353F87200AB8861 /* Main.storyboard */,
 				B500FD1E2353F87500AB8861 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B500FD1D2353F87200AB8861 /* Progress_Journal.xcdatamodeld in Sources */,
+				B577F439235BD19D00B23CD2 /* ViewProgressUpdateViewController.swift in Sources */,
 				B500FD2A23541BCA00AB8861 /* ProgressUpdateTableViewController.swift in Sources */,
 				B500FD2C23541BE400AB8861 /* CreateProgressUpdateViewController.swift in Sources */,
 				B500FD132353F87200AB8861 /* AppDelegate.swift in Sources */,
